@@ -1,0 +1,36 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 16px;
+  t\ext-align: center; /* IE hack */
+  background-color: #000;
+  color: #fff;
+}
+
+#game15-controls {
+position: absolute;
+display: none;
+}
+
+#game15-img {
+  position: absolute;
+  display: none;
+}
+
+.game-cell {
+  position: absolute;
+  width: 224px;
+  height: 149px;
+  border: 0px solid;
+  text-align: center;
+  line-height: 40px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 22px;
+  overflow: hidden;
+  color: #fff;
+  background: url(tetris_udalsa.jpg) no-repeat
+}
+
